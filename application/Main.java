@@ -17,7 +17,7 @@ public class Main extends Application {
 		this.primaryStage = primaryStage;
 
 		try {
-			// 창을띄운다-
+			// 창을띄운다- 
 			FXMLLoader lodar = new FXMLLoader(getClass().getResource("/View/loggin.fxml"));
 
 			root = lodar.load();
